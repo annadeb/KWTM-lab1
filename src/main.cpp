@@ -14,15 +14,15 @@ int main() {
 	double cotangens;
 
 #ifdef USE_TRIGONOMETRY_DEGREE
-	 sinus = degreemath::sin(30.0);
-	 cosinus = degreemath::cos(30.0);
-	 tangens = degreemath::tg(30.0);
-	 cotangens = degreemath::ctg(30.0);
+	 sinus = degreemath::sin(45.0);
+	 cosinus = degreemath::cos(45.0);
+	 tangens = degreemath::tg(45.0);
+	 cotangens = degreemath::ctg(45.0);
 #else
-	sinus = std::sin(PI/6);
-	cosinus = std::cos(PI/6);
-	tangens = std::tan(PI/6);
-	cotangens = 1/std::tan(PI/6);
+	sinus = std::sin(PI/4);
+	cosinus = std::cos(PI/4);
+	tangens = std::tan(PI/4);
+	cotangens = 1/std::tan(PI/4);
 #endif
 
 	std::cout << sinus << std :: endl;
