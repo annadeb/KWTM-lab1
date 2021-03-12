@@ -1,5 +1,5 @@
 #include<LaborkaConfig.h>
-
+#define PI 3.14159265359
 #ifdef USE_TRIGONOMETRY_DEGREE
 #include<trygonometria.h>
 #else
@@ -19,10 +19,10 @@ int main() {
 	 tangens = degreemath::tg(30.0);
 	 cotangens = degreemath::ctg(30.0);
 #else
-	sinus = std::sin(pi/6);
-	cosinus = std::cos(pi/6);
-	tangens = std::tg(pi/6);
-	cotangens = 1/std::tg(pi/6);
+	sinus = std::sin(PI/6);
+	cosinus = std::cos(PI/6);
+	tangens = std::tan(PI/6);
+	cotangens = 1/std::tan(PI/6);
 #endif
 
 	std::cout << sinus << std :: endl;
