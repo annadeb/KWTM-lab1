@@ -19,10 +19,10 @@ int main() {
 	 tangens = degreemath::tg(30.0);
 	 cotangens = degreemath::ctg(30.0);
 #else
-	sinus = std::sin(pi/4);
-	cosinus = std::cos(pi/4);
-	tangens = std::tg(pi/4);
-	cotangens = 1 / std::tg(pi/4);
+	sinus = std::sin(pi/6);
+	cosinus = std::cos(pi/6);
+	tangens = std::tg(pi/6);
+	cotangens = 1/std::tg(pi/6);
 #endif
 
 	std::cout << sinus << std :: endl;
